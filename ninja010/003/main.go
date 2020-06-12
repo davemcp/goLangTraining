@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// Fix this code: https://play.golang.org/p/sfyu4Is3FG
+
 func main() {
 	c := gen()
 	receive(c)
