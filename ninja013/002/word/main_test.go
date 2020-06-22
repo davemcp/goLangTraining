@@ -5,6 +5,7 @@ import (
 )
 
 const test_string = "Lorem ipsum another word"
+
 func TestCount(t *testing.T) {
 	c := Count(test_string)
 	if c != 4 {
@@ -19,4 +20,5 @@ func TestUseCount(t *testing.T) {
 	if len(c) != 4 {
 		t.Error("Expected", 4, "received", len(c))
 	}
+
 }
